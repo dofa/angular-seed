@@ -1,5 +1,16 @@
 /* app css stylesheet */
 
+/*body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+*/
+
+.navbar-fixed-top {
+  top: 28px;
+}
+
 
 
 
@@ -14,3 +25,10 @@
   color: white;
   padding-bottom: 2em;
 }
+
+.footer button {
+  background-color: #333;
+  -moz-border-radius: 50px; 
+  -webkit-border-radius: 50px; 
+  border-radius: 50px; 
+} 

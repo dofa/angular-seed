@@ -9,6 +9,7 @@ angular.module('myApp', [
   'myApp.directives',
   'myApp.controllers',
   'ui.bootstrap',
+  'duScroll',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {templateUrl: 'partials/home.html', controller: 'HomeCtrl'});

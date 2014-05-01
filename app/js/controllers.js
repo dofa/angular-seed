@@ -3,7 +3,7 @@
 /* Controllers */
 
 angular.module('myApp.controllers', [])
-  .controller('NavCtrl', ['$scope', '$location', function($scope, $location) {
+  .controller('MainCtrl', ['$scope', '$location', '$document', function($scope, $location, $document) {
     $scope.items = [
       {path: '/home', title: '首页'},
       {path: '/photos', title: '相册'},
@@ -17,11 +17,23 @@ angular.module('myApp.controllers', [])
       }
       return false;
     };
-    $scope.getTop = function() {
-      $scope.top = $location.path();
-    };    
+    $scope.BackToTop = function() {
+      $document.scrollTop(0, 200);
+    }; 
+
+
   }])
 
+  .controller('MainPhotoCtrl', ['$scope', function($scope) {
+    $scope.myInterval = 5000;
+    $scope.slides = [
+      {image: 'http://dofa.u.qiniudn.com/images/background/bower.jpg'},
+      {image: 'http://dofa.u.qiniudn.com/images/background/ship.jpg'},
+      {image: 'http://dofa.u.qiniudn.com/images/background/sits.jpg'},
+      {image: 'http://dofa.u.qiniudn.com/images/background/Summer-Country-Road-1366x768-desktopia.net.jpg'},
+      {image: 'http://dofa.u.qiniudn.com/images/background/Mountain-Road1-1366x768-desktopia.net.jpg'},
+    ];      
+  }])
   .controller('HomeCtrl', ['$scope', function($scope) {
 
   
