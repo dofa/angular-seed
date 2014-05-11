@@ -30,8 +30,9 @@ angular.module('myApp.controllers', [])
       {image: 'http://dofa.u.qiniudn.com/images/background/bower.jpg'},
       {image: 'http://dofa.u.qiniudn.com/images/background/ship.jpg'},
       {image: 'http://dofa.u.qiniudn.com/images/background/sits.jpg'},
-      {image: 'http://dofa.u.qiniudn.com/images/background/Summer-Country-Road-1366x768-desktopia.net.jpg'},
-      {image: 'http://dofa.u.qiniudn.com/images/background/Mountain-Road1-1366x768-desktopia.net.jpg'},
+      // {image: 'http://dofa.u.qiniudn.com/images/background/Summer-Country-Road-1366x768-desktopia.net.jpg'},
+      // {image: 'http://dofa.u.qiniudn.com/images/background/Mountain-Road1-1366x768-desktopia.net.jpg'},
+      // {image: 'http://dofa.u.qiniudn.com/images/background/monty_python_ministry_of_silly_walks_desktop_1920x1200_hd-wallpaper-826419.jpg'},
     ];      
   }])
   .controller('HomeCtrl', ['$scope', function($scope) {

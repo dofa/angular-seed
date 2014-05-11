@@ -7,8 +7,22 @@
 
 */
 
-.navbar-fixed-top {
-  top: 28px;
+body {
+  margin: 0 auto; 
+  /*background-color: transparent;*/
+}
+
+
+#header {
+  margin: 0 50 auto;
+  height:667px;
+  background: url(http://dofa.u.qiniudn.com/images/background/the_fallen_desktop_1600.jpg);
+}
+
+#navbar {
+  position:absolute;
+  margin: 0 auto;
+
 }
 
 
