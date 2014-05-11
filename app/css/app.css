@@ -14,18 +14,22 @@ body {
 
 
 #header {
-  margin: 0 50 auto;
+  margin: 0 auto;
   height:667px;
   background: url(http://dofa.u.qiniudn.com/images/background/the_fallen_desktop_1600.jpg);
 }
 
 #navbar {
-  position:absolute;
+  position:relative;
   margin: 0 auto;
+  float: none;
 
 }
 
 
+.placeholder {
+  height:50px;
+}
 
 
 .footer {
